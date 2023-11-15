@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Icefly",
+  "version": "1.0",
+
+  "description": "Prolong your Firefly logins",
+
+  "permissions": ["cookies", "*://intranet.stpaulsschool.org.uk/*"],
+
+  "background": {
+    "scripts": ["icefly.js"],
+    "persistent": false
+  }
+}
+
