@@ -10,6 +10,12 @@
   "background": {
     "scripts": ["icefly.js"],
     "persistent": false
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "icefly@bartlett-m.github.io"
+    }
   }
 }
 
